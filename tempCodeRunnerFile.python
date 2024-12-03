@@ -1,0 +1,20 @@
+import numpy as np
+
+messi_goals = [47, 53, 73, 60, 41, 58, 41, 54, 45, 51, 31, 38]
+ronaldo_goals = [33, 53, 60, 55, 51, 61, 51, 42, 44, 28, 37, 36]
+
+messi_mean = np.mean(messi_goals)
+ronaldo_mean = np.mean(ronaldo_goals)
+
+messi_std = np.std(messi_goals)  
+ronaldo_std = np.std(ronaldo_goals)
+
+print('メッシ2009年から2012年のクラブでの平均ゴール数:', messi_mean, '標準偏差:' ,messi_std)
+print('クリスティアーノ・ロナウド2009年から2012年のクラブでの平均ゴール数:' ,ronaldo_mean, '標準偏差:' ,ronaldo_std)
+
+if messi_std < ronaldo_std:
+    print("2009年から2012年のクラブでメッシの方が安定している。")
+elif messi_std > ronaldo_std:
+    print("2009年から2012年のクラブでクリスティアーノ・ロナウドの方が安定している。")
+else:
+    print("メッシとクリスティアーノ・ロナウド009年から2012年のクラブでの安定性は同じ。")
