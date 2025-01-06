@@ -1,0 +1,7 @@
+Path/To/TileMap_TestMap.uasset filter=lfs diff=lfs merge=lfs -text
+E:/GitHub/UE5_2D_01/Content/GameLevel/GameMap/TileMap_TestMap.uasset filter=lfs diff=lfs merge=lfs -text
+Content/GameLevel/GameMap filter=lfs diff=lfs merge=lfs -text
+*.uasset filter=lfs diff=lfs merge=lfs -text
+Content/BP/talk/Rule.uasset filter=lfs diff=lfs merge=lfs -text
+Content/BP/talk/Ruru_Paper.uasset filter=lfs diff=lfs merge=lfs -text
+Saved/Autosaves/Game/BP/talk/Rule_Auto1.uasset filter=lfs diff=lfs merge=lfs -text
